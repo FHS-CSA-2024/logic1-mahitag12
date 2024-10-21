@@ -457,8 +457,8 @@ public class Logic1
     dateFashion(5, 10) --> 2
     dateFashion(5, 2) --> 0
     dateFashion(5, 5) --> 1    */
-    public int dateStyle(int u, int date) {
-      if(you <=2 || date<=2) {
+    public int dateFashion(int u, int date) {
+      if(u <=2 || date<=2) {
           return 0;
       }
     else if((u>=8 && date>=8) || (u>=8 || date>=8)) {
@@ -484,7 +484,7 @@ public class Logic1
           if (p%3 == 0 && p%5 == 0) {
                     return "FizzBuzz!";
             }
-            else if (pn%3 == 0) {
+            else if (p%3 == 0) {
                     return "Fizz!";
             }
            else if (p%5 == 0) {
@@ -504,7 +504,7 @@ public class Logic1
     sodaParty(30, false) --> false
     sodaParty(50, false) --> true
     sodaParty(70, true) --> true */
-    public boolean sodaparty(int sodas, boolean weekend) {
+    public boolean sodaParty(int sodas, boolean weekend) {
         if (weekend==true) {
             if(sodas>=40){
                 return true;
