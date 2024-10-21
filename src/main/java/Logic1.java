@@ -484,7 +484,7 @@ public class Logic1
           if (p%3 == 0 && p%5 == 0) {
                     return "FizzBuzz!";
             }
-            else if pn%3 == 0) {
+            else if (pn%3 == 0) {
                     return "Fizz!";
             }
            else if (p%5 == 0) {
