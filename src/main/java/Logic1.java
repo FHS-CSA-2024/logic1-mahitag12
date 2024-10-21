@@ -312,8 +312,8 @@ public class Logic1
     However, in all cases, if either tea or candy is less than 5, the party is always bad (0).
 
 
-    teaParty(6, 😎 --> 1
-    teaParty(3, 😎 --> 0
+    teaParty(6, --> 1
+    teaParty(3, --> 0
     teaParty(20, 6) --> 2 */
     public int teaParty(int tea, int candy) {
         if (tea<5 || candy<5){
